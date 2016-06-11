@@ -1,0 +1,25 @@
+
+
+1. Generate new starter project
+
+  rails new sample_app --skip-test-unit
+
+2. Change GEM-file. Installing new gems.
+
+  $ bundle install --without production // remembered option
+  $ bundle update
+  $ bundle install
+
+3. Secret token (я не знаю что это, но это надо сделать)
+
+  /config/initializers/secret_token.rb
+
+4. Configuring Rails for using RSpec instead of Test::Unit
+
+  $ rails generate rspec:install
+
+5. Git init
+
+  $ git init
+  $ git add .
+  $ git commit -m "Initial commit"
