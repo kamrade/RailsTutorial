@@ -25,3 +25,5 @@ doc/
 .DS_Store
 .idea
 .secret
+step_by_step.txt
+.gitignore
