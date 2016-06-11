@@ -47,4 +47,25 @@ And add root route in config/routes.rb
 PART 2. STATIC PAGES.
 -------------------------------------------------
 
-2.1
+2.1 Create new branch
+
+  git checkout -b static-pages
+
+2.2 Generate controller static_pages
+
+  $ rails generate controller StaticPages home help --no-test-frameworks
+  // rails generate
+  // rails destroy
+  // rake db:migrate
+  // rake db:rollback
+
+  Rollback to the start version
+  rake db:migrate VERSION=0
+
+2.3 Commit changes "Add a static pages controller"
+
+-------------------------------------------------
+PART 3. FIRST TESTS.
+-------------------------------------------------
+
+3.1 
