@@ -1,1 +1,4 @@
 TDD - test driven development
+BDD - behavior driven development. Cucumber.
+интеграционные тесты - RSpec (request specs) - simulate user activity. Capybara syntax.
+юнит тесты
